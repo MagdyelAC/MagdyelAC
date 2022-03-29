@@ -1,0 +1,34 @@
+clear, clc
+
+% matriz cuadrada de orden 3 x 3
+A = [2 0 1;
+     3 0 0;
+     5 1 1];
+     
+ renglones = 3;
+ columnas = 3;
+ 
+fprintf('Ingrese el numero a multiplicar \n');
+
+numescal =input(" Numero : ");
+
+ % impresion de matriz usando 2 ciclos anidados
+ 
+fprintf('Matriz a multiplicar \n');
+
+for ren=1:renglones;
+    for col=1:columnas;
+        fprintf('%d ', A(ren, col))
+    end
+    fprintf('\n');
+end
+
+
+fprintf('Matriz Multiplicada \n');
+
+for ren=1:renglones;
+    for col=1:columnas;
+        fprintf('%d ', numescal * A(ren, col))
+    end
+    fprintf('\n');
+end
