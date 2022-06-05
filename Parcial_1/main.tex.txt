@@ -1,0 +1,108 @@
+\documentclass{report}
+\usepackage{graphicx}
+\begin{document}
+\begin{titlepage}
+\centering
+{\bfseries\LARGE Universidad Veracruzana \par}
+\vspace{1cm}
+{\scshape\Large Facultad de Negocios y Tecnolog\'ias  \par}
+\vspace{3cm}
+{\scshape\Huge Reporte T\'ecnico \par}
+\vspace{3cm}
+{\itshape\Large Paradigmas de Programaci\'on \par}
+\vfill
+{\Large Autor: \par}
+{\Large Magdyel Aguilar Cid \par}
+\vfill
+{\large Jueves 19 de Marzo 2022 \par}
+
+\end{titlepage}
+
+\section{Introduction}
+
+ \textbf{¿Que es Matlab?}
+
+{Es una plataforma de programación diseñado específicamente para los ingenieros y científicos, para analizar y diseñar sistemas y productos que transforman nuestro mundo. MATLAB es un lenguaje basado en matrices que permite la expresión más natural de las matemáticas computacionales.\par}
+\vspace{1cm}
+
+\textbf{¿Para que se usa Matlab?}
+
+Millones de ingenieros y científicos de todo el mundo usan \textbf{MATLAB} para analizar y diseñar los sistemas y productos que transforman nuestro mundo. \textbf{MATLAB} está presente en sistemas de seguridad activa de automóviles, naves espaciales interplanetarias, dispositivos de monitorización de la salud, redes eléctricas inteligentes y redes móviles LTE. \hspace{1cm}Se utiliza para aprendizaje automático, procesamiento de señales, procesamiento de imágenes, visión artificial, comunicaciones, finanzas computacionales, diseño de control, robótica y muchos otros campos.
+
+\section{Caracterisitcas Principales}
+\begin{itemize}
+    \item Lenguaje de alto nivel para cálculos científicos y de ingeniería
+    \item Entorno de escritorio optimizado para la exploración iterativa, el diseño y la solución de problemas
+    \item Gráficas para visualizar datos y herramientas para crear diagramas personalizados
+    \item Aplicaciones para ajustar curvas, clasificar datos, analizar señales, ajustar sistemas de control y muchas otras tareas
+    \item Toolboxes complementarias para una amplia variedad de aplicaciones científicas y de ingeniería
+    \item Herramientas para crear aplicaciones con interfaces de usuario personalizadas
+    \item Opciones de implementación libres de derechos para compartir programas de MATLAB con los usuarios finales
+\end{itemize}
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=8cm, height=5cm]{Matlablogo.jpg}
+\caption{imagen de MATLAB}
+\end{figure}
+
+\section{ Tema del Proyecto}
+{Mi proyecto consistira en hacer el programa a base de los numeros pero en el idioma Japones. Lo cual se basara y determinara como me lo plantee y como me lo imagine. MATLAB se enfoca mas para estudiantes de ingeniería, se emplean ampliamente en empresas de procesamiento de señales, imágenes, investigación, académicas e industriales. Esto fue implementado por primera vez por investigadores e ingenieros en ingeniería de control. Además, se extiende rápidamente a muchos otros dominios.\par}
+\vspace{1cm}
+{El programa a la hora de compilarlo tendra que mostrar en pantalla, los numeros en el idioma Japones. Tendra principio en el numero 0 al numero 9. Decidi elegir los numeros japoneses por que para mi punto de vista, es muy complicado la escritura japonesa,al menos para mi, pero cuando vi los numeros se me hizo un poco sencillo escribirlos a lo cual me gusto mucho como se escriben en japones, por lo cual decidi y opte por hacerlos en el idioma Japones. Se muestra de la siguiente manera:}\vspace{0.1cm}
+
+El siguiente ejemplo seria una muestra de como se veria ya compilado el programa y mostraria el numero 0 en el idioma Japones:
+Decidi elegir los numeros japoneses por que para mi punto de vista, es muy complicado la escritura japonesa,al menos para mi, pero cuando vi los numeros se me hizo un poco sencillo escribirlos a lo cual me gusto mucho como se escriben en japones, por lo cual decidi y opte por hacerlos en el idioma Japones.
+\begin{center} 
+ {1  1  1  1  1  1  1  1  1  1\par}\vspace{0.1cm}
+ {0  0  0  0  1  0  0  0  0  0\par}\vspace{0.1cm}
+ {1  1  0  1  1  1  1  1  1  1\par}\vspace{0.1cm}
+ {1  0  0  0  1  0  0  0  0  1\par}\vspace{0.1cm}
+ {1  0  0  0  1  0  0  0  0  1\par}\vspace{0.1cm}
+ {0  0  0  0  1  0  0  0  0  0\par}\vspace{0.1cm}
+ {0  0  0  0  1  0  0  0  0  0\par}\vspace{0.1cm}
+ {0  0  0  0  1  0  0  0  0  0\par}\vspace{0.1cm}
+     
+ \end{center}
+{Lo siguiente que se muestra a continuacion es de como se formo la matriz:\par}\vspace{0.2cm}
+
+{x0=[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, -1,-1,-1,-1, 1,-1,-1,-1,-1,-1,1, 1,-1, 1, 1, 1, 1, 1, 1, 1, 1,-1,-1,-1, 1,-1,-1,-1,-1, 1,1,-1,-1,-1, 1,-1,-1,-1,-1, 1, -1,-1,-1,-1, 1,-1,-1,-1,-1,-1,-1,-1,-1,-1, 1,-1,-1,-1,-1,-1,-1,-1,-1,-1, 1,-1,-1,-1,-1,-1];\par}\vspace{1cm}
+
+{El programa mostrara el resultado los cuales son los numeros escritos en el idioma japones, dado que anteriormente se mostro un ejemplo de como saldria aqui esta una imagen de como se veria compilado:}\vspace{0.1cm}
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=8cm, height=5cm]{Numero1.png}
+\caption{Ejemplo del resultado}
+\end{figure}
+
+{En la figura 2 nos muestra el numero 1 escrito en el idioma japones, el resultado que debera arrojar a la hora de compilar el programa con los demas numeros escritos y visualizados en el idioma japones. }\vspace{0.1cm}
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=9cm, height=5cm]{Matjapo.png}
+\caption{Numeros ordenados}
+\end{figure}
+
+{Y despues de que este el ejemplo, viene lo que es el programarlo, primero se hizo en matlab para poder tener un proceso o mas bien una guia que pudiera ayudarnos a la hora de pasarlo a c++, pero el punto es que esta programado en Matlab, y en la  imagen que tenemos arriba se muestra solamente los numeros ordenados para que salga el resultado de la figura 2. }\vspace{0.1cm}
+
+{A manera que se compile el porgrama nos tendran que salir los demas numeros del 1 al numero 7, el resultado sera que solamente estaran escritos, ya que lo que realmente quiero mostrar, es sobre como trabaja una red neuronal, y como es el procedimiento, con la imagen a continuacion.}\vspace{0.1cm}
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=4cm, height=9cm]{Numerosjapos.png}
+\caption{Ejemplo del resultado}
+\end{figure}
+
+{Las redes neuronales permiten extraer información útil y producir inferencias a partir de los datos disponibles gracias a su capacidad de aprendizaje.}\vspace{0.1cm}
+
+
+\section{Conclusion}
+
+{Este problema puede usarse ya sea para fines de entretiniemto o cientificos, por que nos ayuda a visualizar o mas bien enseñar que la red neuronal es muy util y puede usarse para grandes proyectos, experimentos,etc.
+
+Y sobre lo que me llevo aprendido es muy valioso para mi, ya que no sabia que era una red neuronal, pero ahora es un tema muy senillo y muy util tal vez para futuro, la experiencia que me lleve sera importante para mi en el futuro.}\vspace{0.1cm}
+
+
+
+\end{document}
